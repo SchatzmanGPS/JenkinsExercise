@@ -10,8 +10,9 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 @EnableAutoConfiguration
 public class ExerciseLogApplication extends SpringBootServletInitializer {
-// Added arguments
+// Added arguments and fixed them
 	public static void main(String[] args) {
 		SpringApplication.run  (ExerciseLogApplication.class, args);
+		FixedChanges.run;
 	}
 }
