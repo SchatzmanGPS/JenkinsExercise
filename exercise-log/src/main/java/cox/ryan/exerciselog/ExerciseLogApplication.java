@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 public class ExerciseLogApplication extends SpringBootServletInitializer {
 // Added arguments
-	public static void main(String[] arguments) {
-		SpringApplication.run(ExerciseLogApplication.class, args);
+	public static void main(String[] args) {
+		SpringApplication.run  (ExerciseLogApplication.class, args);
 	}
 }
